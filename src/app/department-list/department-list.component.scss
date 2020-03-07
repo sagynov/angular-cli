@@ -1,0 +1,21 @@
+ul.items {
+    list-style: none; 
+}
+ul.items li{
+    display: inline-block;
+    color: #999;
+    background: #ccc;
+    padding: 10px 0;
+    margin-right: 10px;
+    cursor: pointer;
+}
+ul.items li span.badge{
+    background: #333;
+    color: #fff;
+    padding: 10px;
+    margin-right: 10px;
+    
+}
+ul.items li.selected {
+    color: #ff0000;
+}
